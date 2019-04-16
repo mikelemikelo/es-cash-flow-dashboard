@@ -8,7 +8,7 @@ PUT ventas_negocios
 			"day_of_month": { "type":"integer" },
 			"week_day_name": { "type":"keyword" },
 			"status_date": { "type":"date", "format":"MM/dd/yy" },
-			"total_pos": { "type":"doubkle" },
+			"total_pos": { "type":"double" },
 			"total_cash": { "type":"double" },
 			"total_cards": { "type":"double" },
 			"total_expenses": { "type":"double" },
