@@ -1,0 +1,18 @@
+PUT ventas_negocios
+{
+ "mappings": {
+	"_doc": {
+		"properties": {
+			"business_name": { "type":"keyword" },
+			"month_short_name": { "type":"keyword" },
+			"day_of_month": { "type":"integer" },
+			"week_day_name": { "type":"keyword" },
+			"status_date": { "type":"date", "format":"MM/dd/yy" },
+			"total_pos": { "type":"doubkle" },
+			"total_cash": { "type":"double" },
+			"total_cards": { "type":"double" },
+			"total_expenses": { "type":"double" },
+			"total_external_expenses": { "type":"double" }
+		}
+	}
+}
